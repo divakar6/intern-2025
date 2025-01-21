@@ -1,7 +1,16 @@
+import { useState } from "react";
+
 const About=()=>{
+    var [text,setText]=useState("vijay")
+    function handleText(e){
+        setText(e.target.value)
+    }
     return(
         <div>
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae distinctio rem quas officiis deleniti commodi doloremque. Obcaecati non fugiat sapiente minus natus dicta maxime sunt nostrum, laboriosam voluptatum veniam id?</p>
+            <h2>This is About componenet</h2>
+            <h2>TextArea</h2>
+            <textarea value={text} onChange={handleText} />
+            <p>The text is {text}</p>
         </div>
     )
 }

@@ -1,0 +1,20 @@
+ol{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+    background-color: chartreuse;
+    color: red;
+}
+.link{
+    text-decoration: none;
+    color: #2d2d2d;
+    padding: 5px;
+}
+.link:hover{
+    background-color: #2d2d2d;
+    color: chartreuse;
+    border-radius: 10px;
+}
