@@ -8,6 +8,8 @@ import Signup from './components/Signup'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import UseEffect from './components/UseEffect'
+import UseEffectApi from './components/UseEffectAPI'
 
 
 function App() {
@@ -20,7 +22,10 @@ function App() {
           <Route path='/about' element={<About/>}></Route>
           <Route path='/gallery' element={< Gallery image="React LOGO" page="picture"/>}></Route>
           <Route path='/Contact' element={<Contact/>}></Route>
+          <Route path='/use-state' element={<Contact/>}></Route>
           <Route path='/signup' element={<Signup/>}></Route>
+          <Route path='/use-effect' element={<UseEffect/>}></Route>
+          <Route path='/use-effect-api' element={<UseEffectApi/>}></Route>
         </Routes>         
     </BrowserRouter>
   )

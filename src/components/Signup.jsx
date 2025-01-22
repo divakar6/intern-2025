@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "../../css/signUp.css"
+import "../css/signUp.css"
 const Signup=()=>{
     return (
     
