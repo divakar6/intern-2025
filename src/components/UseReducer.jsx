@@ -1,5 +1,5 @@
 import { useReducer } from "react"
-import NavBar from "../src/components/Navbar"
+import NavBar from "./Navbar"
 const UseReducer=()=>{
     var actions={
         INC:'increment',
