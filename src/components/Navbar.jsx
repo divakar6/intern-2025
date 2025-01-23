@@ -15,6 +15,7 @@ const Navbar=()=>{
                     <li><Link className='link' to='/about'>About</Link></li>
                     <li><Link className='link' to='/gallery'>Gallery</Link></li>
                     <li><Link className='link' to='/Contact'>Contact</Link></li>
+                    <li><Link className='link' to='/use-reducer'>UseReducer</Link></li>
                     <li><Link className='link' to='/use-effect-api'>UseEffectAPI</Link></li>
                     <div onMouseOver={()=>setdd(true)} onMouseLeave={()=>setdd(false)}>
                         <span className='link'>Hooks</span>

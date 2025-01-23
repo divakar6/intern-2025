@@ -10,6 +10,7 @@ import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import UseEffect from './components/UseEffect'
 import UseEffectApi from './components/UseEffectAPI'
+import UseReducer from './UseReducer'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/signup' element={<Signup/>}></Route>
           <Route path='/use-effect' element={<UseEffect/>}></Route>
           <Route path='/use-effect-api' element={<UseEffectApi/>}></Route>
+          <Route path='/use-reducer' element={<UseReducer/>}></Route>
         </Routes>         
     </BrowserRouter>
   )
