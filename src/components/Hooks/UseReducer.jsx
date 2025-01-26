@@ -1,5 +1,5 @@
 import { useReducer } from "react"
-import NavBar from "./Navbar"
+
 const UseReducer=()=>{
     var actions={
         INC:'increment',
@@ -19,7 +19,6 @@ const UseReducer=()=>{
     var [stateVal,setAction]=useReducer(reducerFunc,{val:0})
     return ( 
     <div>
-        <NavBar/>
         <button onClick={()=>{setAction({type:actions.INC})}}>+</button>
         <span>{stateVal.val}</span>
         <button onClick={()=>{setAction({type:actions.DEC})}}>-</button>

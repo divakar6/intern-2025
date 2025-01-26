@@ -8,13 +8,17 @@ import Signup from './components/Signup'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import UseEffect from './components/UseEffect'
-import UseEffectApi from './components/UseEffectAPI'
-import UseReducer from './components/UseReducer'
-import UseRef from './components/UseRef'
-import UseMemo from './components/UseMemo'
-import UseCallBack from './components/UseCallBack'
-import ReactLifeCycleMethods from './components/ReactLifeCycleMethods'
+import UseEffect from './components/Hooks/UseEffect'
+import UseEffectApi from './components/Hooks/UseEffectAPI'
+import UseReducer from './components/Hooks/UseReducer'
+import UseRef from './components/Hooks/UseRef'
+import UseMemo from './components/Hooks/UseMemo'
+import UseCallBack from './components/Hooks/UseCallBack'
+import ReactLifeCycleMethods from './components/Hooks/ReactLifeCycleMethods'
+import Memo from './components/Memoization/Memo'
+import UpdateNumber from './components/Memoization/UpdateNumber'
+import UpdateText from './components/Memoization/UpdateText'
+import HoC from './components/HoC/HoC'
 
 
 function App() {
@@ -36,6 +40,11 @@ function App() {
           <Route path='/use-memo' element={<UseMemo/>}></Route>
           <Route path='/use-call-back' element={<UseCallBack/>}></Route>
           <Route path='/react-life-cycle-methods' element={<ReactLifeCycleMethods/>}></Route>
+          <Route path="/memo" element={<Memo />} />
+          <Route path="/updatenumber" element={<UpdateNumber />} />
+          <Route path="/updatetext" element={<UpdateText />} />
+          <Route path="/hoc" element={<HoC />} />
+
         </Routes>         
     </BrowserRouter>
   )
