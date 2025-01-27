@@ -19,6 +19,7 @@ import Memo from './components/Memoization/Memo'
 import UpdateNumber from './components/Memoization/UpdateNumber'
 import UpdateText from './components/Memoization/UpdateText'
 import HoC from './components/HoC/HoC'
+import LazyLoading from './components/Memoization/LazyLoading'
 
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
           <Route path="/updatenumber" element={<UpdateNumber />} />
           <Route path="/updatetext" element={<UpdateText />} />
           <Route path="/hoc" element={<HoC />} />
+          <Route path="/custom-hook" element={<useLocalStorage />} />
+          <Route path="/lazy-loading" element={<LazyLoading />} />
 
         </Routes>         
     </BrowserRouter>

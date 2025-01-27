@@ -44,6 +44,7 @@ const Navbar = (onLogout) => {
                                 <li><Link to='/use-memo' className='link'>UseMemo</Link></li>
                                 <li><Link to='/use-call-back' className='link'>UseCallBack</Link></li>
                                 <li><Link to='/react-life-cycle-methods' className='link'>ReactLifeCycleMethods</Link></li>
+                                <li><Link to='/custom-hook' className='link'>Custom Hook</Link></li>
                             </ul>
                         )}
                     </div>
@@ -67,6 +68,7 @@ const Navbar = (onLogout) => {
                                 <li><Link to='/memo' className='link'>Memo</Link></li>
                                 <li><Link to='/updatenumber' className='link'>updatenumber</Link></li>
                                 <li><Link to='/updatetext' className='link'>updatetext</Link></li>
+                                <li><Link to='/lazy-loading' className='link'>Lazy Loading</Link></li>
                                 
                           </ul>
                         )}
